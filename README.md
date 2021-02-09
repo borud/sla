@@ -8,10 +8,12 @@ Extremely trivial SLA calculator.
 
 ## Usage
 
-    $ sla 99.85
-    Downtime : 0.150000
-    Uptime   : 99.850000
-    Daily    : 2 minutes 9 seconds 600 milliseconds
-    Weekly   : 15 minutes 7 seconds 200 milliseconds
-    Month    : 1 hour 4 minutes 48 seconds
-    Year     : 13 hours 8 minutes 24 seconds	
+    $ sla 99
+
+      Downtime : 1.000000
+      Uptime   : 99.000000
+
+      Daily    : 14 minutes 24 seconds
+      Weekly   : 1 hour 40 minutes 48 seconds
+      Month    : 7 hours 12 minutes
+      Year     : 3 days 15 hours 36 minutes
