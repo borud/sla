@@ -28,11 +28,13 @@ func main() {
 
 	uptime := sla / 100.0
 	downtime := 1.0 - uptime
-
-	fmt.Printf("Downtime : %f\n", 100.0-sla)
-	fmt.Printf("Uptime   : %f\n", sla)
-	fmt.Printf("Daily    : %v\n", durafmt.Parse(time.Duration(float64(day)*downtime)))
-	fmt.Printf("Weekly   : %v\n", durafmt.Parse(time.Duration(float64(week)*downtime)))
-	fmt.Printf("Month    : %v\n", durafmt.Parse(time.Duration(float64(month)*downtime)))
-	fmt.Printf("Year     : %v\n", durafmt.Parse(time.Duration(float64(year)*downtime)))
+	fmt.Println()
+	fmt.Printf("  Downtime : %f\n", 100.0-sla)
+	fmt.Printf("  Uptime   : %f\n", sla)
+	fmt.Println()
+	fmt.Printf("  Daily    : %v\n", durafmt.Parse(time.Duration(float64(day)*downtime)))
+	fmt.Printf("  Weekly   : %v\n", durafmt.Parse(time.Duration(float64(week)*downtime)))
+	fmt.Printf("  Month    : %v\n", durafmt.Parse(time.Duration(float64(month)*downtime)))
+	fmt.Printf("  Year     : %v\n", durafmt.Parse(time.Duration(float64(year)*downtime)))
+	fmt.Println()
 }
