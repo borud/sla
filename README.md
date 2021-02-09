@@ -15,5 +15,5 @@ Extremely trivial SLA calculator.
 
       Daily    : 14 minutes 24 seconds
       Weekly   : 1 hour 40 minutes 48 seconds
-      Month    : 7 hours 12 minutes
-      Year     : 3 days 15 hours 36 minutes
+      Monthly  : 7 hours 12 minutes
+      Yearly   : 3 days 15 hours 36 minutes

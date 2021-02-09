@@ -34,7 +34,7 @@ func main() {
 	fmt.Println()
 	fmt.Printf("  Daily    : %v\n", durafmt.Parse(time.Duration(float64(day)*downtime)))
 	fmt.Printf("  Weekly   : %v\n", durafmt.Parse(time.Duration(float64(week)*downtime)))
-	fmt.Printf("  Month    : %v\n", durafmt.Parse(time.Duration(float64(month)*downtime)))
-	fmt.Printf("  Year     : %v\n", durafmt.Parse(time.Duration(float64(year)*downtime)))
+	fmt.Printf("  Monthly  : %v\n", durafmt.Parse(time.Duration(float64(month)*downtime)))
+	fmt.Printf("  Yearly   : %v\n", durafmt.Parse(time.Duration(float64(year)*downtime)))
 	fmt.Println()
 }
